@@ -30,6 +30,12 @@
     <ClInclude Include="Resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Instdrv.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="xxprotect_sdk.cpp">
@@ -39,6 +45,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Instdrv.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
