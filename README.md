@@ -2,7 +2,7 @@ x64 free protect
 
 Features
 1.process/thread handle protect
-2.close taskmgr.exe
+2.anti taskmgr.exe
 3.hide process
 4.anti-debugger(user/kernel debugger)
 
@@ -22,6 +22,11 @@ if(!app_protect.protect_process()) {
 stop protect:
 app_protect.unprotect_process();
 
+5.
+build release\x64
+
+6.
+Copy file SKProDriver.sys to xxprotect_sdk\x64\Release
 
 Support platform:
 win7-win10 x64
